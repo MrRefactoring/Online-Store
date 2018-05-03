@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2E51F169-3D9D-424F-AAEC-783D93D0A1B3}</ProjectGuid>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Pr</RootNamespace>
+    <AssemblyName>Pr</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+    <Content Include="Global.asax" />
+    <Content Include="assets\Index.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\js\index.js" />
+    <Content Include="assets\font\Google.ttf" />
+    <Content Include="assets\pages\SignIn.aspx" />
+    <Content Include="assets\pages\SignOut.aspx" />
+    <Content Include="assets\pages\SignUp.aspx" />
+    <Content Include="assets\pages\admin\Admin.aspx" />
+    <Content Include="assets\css\signin.css" />
+    <Content Include="assets\js\signin.js" />
+    <Content Include="assets\css\signup.css" />
+    <Content Include="assets\js\signup.js" />
+    <Content Include="assets\pages\admin\Orders.aspx" />
+    <Content Include="assets\pages\Basket.aspx" />
+    <Content Include="assets\js\admin.js" />
+    <Content Include="assets\css\admin.css" />
+    <Content Include="assets\pages\admin\AddItem.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="assets\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assets\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assets\pages\SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assets\pages\SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assets\pages\SignOut.aspx.cs">
+      <DependentUpon>SignOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assets\pages\SignOut.aspx.designer.cs">
+      <DependentUpon>SignOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assets\pages\SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assets\pages\SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assets\pages\admin\Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assets\pages\admin\Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="handlers\Tokenizer.cs" />
+    <Compile Include="handlers\DataBaseHandler.cs" />
+    <Compile Include="assets\pages\admin\Orders.aspx.cs">
+      <DependentUpon>Orders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assets\pages\admin\Orders.aspx.designer.cs">
+      <DependentUpon>Orders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assets\pages\Basket.aspx.cs">
+      <DependentUpon>Basket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assets\pages\Basket.aspx.designer.cs">
+      <DependentUpon>Basket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assets\pages\admin\AddItem.aspx.cs">
+      <DependentUpon>AddItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assets\pages\admin\AddItem.aspx.designer.cs">
+      <DependentUpon>AddItem.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\" />
+    <Folder Include="assets\pages\" />
+    <Folder Include="assets\css\" />
+    <Folder Include="assets\js\" />
+    <Folder Include="databases\" />
+    <Folder Include="assets\font\" />
+    <Folder Include="assets\pages\admin\" />
+    <Folder Include="handlers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="databases\motorcycles.json" />
+    <None Include="databases\users.json" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,68 @@
+﻿[
+  {
+    "id": "1",
+    "title": "KTM 990 Adventure",
+    "description": "990 Adventure - это переработанная версия большого 950 Adventure. Двигатель 990 имеет электронный впрыск топлива, регулируемый каталитический нейтрализатор и систему ABS, имеет двигатель LC8 с увеличенным рабочим объемом 999 куб. См. KTM 990 Adventure выпускается в двух вариантах: KTM 990 Adventure S и новом «Dakar-Design».",
+    "price":  "400 000",
+    "pictures": [
+      "http://motones.ru/uploads/posts/2012-12/1356086847_ktm-990-adventure-baja-2013.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f3/KTM_990_Adventure.jpg"
+    ]
+  },
+
+  {
+    "id": "2",
+    "title": "Kawasaki Concours",
+    "description": "Kawasaki sport-touring powerhouse сочетает в себе душу Ninja ZX-14R с изощренностью передовых технологий и аксессуаров премиум-класса. Агрегат Concours®14, созданный вокруг впечатляющих характеристик мощного 1,352cc суперспортивного двигателя, сочитается с усовершенствованиями верхней полки.",
+    "price":  "565 000",
+    "pictures": [
+      "https://www.totalmotorcycle.com/wp-content/uploads/2017/10/2018-Kawasaki-Concours-14-ABS3.jpg",
+      "http://www.motorcycledaily.com/wp-content/uploads/2015/01/010514middle1.jpg"
+    ]
+  },
+
+  {
+    "id": "3",
+    "title": "KTM RC8 1190",
+    "description": " Спортбайк отличается агрессивным дизайном с острыми краями и низким подтяжкой выхлопной трубы. Хотя название содержит 1190, на самом деле супербайк имеет только двигатель V-twin мощностью 1150 куб. См, способный на 152 лошадиных силы при скорости вращения двигателя 10 000 об / мин. В подвеске используются перевернутые вилы и двухсторонний маятник с двухсторонним сплавом, оба они предоставляются WP, который является дочерней компанией KTM.",
+    "price": "890 000",
+    "pictures": [
+      "https://omoimot.ru/photos/14488596431438-KTM-RC1190-rc8-black-2016-xl.jpg",
+      "https://www.carsbase.com/photo/KTM-1190_RC8_mp109_pic_64726.jpg"
+    ]
+  },
+
+  {
+    "id": "4",
+    "title": "Suzuki Hayabusa",
+    "description": "Благодаря легкой и жесткой алюминиевой раме с двойным штифтом и современной подвеске эта скорость сочетается с одинаково впечатляющим управлением, обеспечивая исключительный контроль в трудных углах, создавая стабильность в широких поворотах и плавную езду по шоссе.",
+    "price": "1 049 000",
+    "pictures": [
+      "https://omoimot.ru/photos/14488596466360-Suzuki-HAYABUSA-ABS-GSX1300RA-white-2016-xl.jpg",
+      "https://motoxmoto.ru/wp-content/uploads/2018/02/hayabusa-4.jpg"
+    ]
+  },
+
+  {
+    "id": "5",
+    "title": "Honda CBR650F",
+    "description": "Honda CBR600RR имеет 599 куб. См. 4-цилиндровый, с 16 клапанами, DOHC с двухступенчатым впрыском топлива с жидкостным охлаждением с 40-мм корпусом дроссельной заслонки и 12-луночными инжекторами Denso, компьютерным управлением и цифровым транзисторным с трехмерным отображением , двигатель с отверстием и ход 67 мм и 42,5 мм соответственно.",
+    "price": "610 000",
+    "pictures": [
+      "https://omoimot.ru/photos/14488596403302-Honda-CBR650F-tricolore-2016-xl.jpg",
+      "https://i.ytimg.com/vi/Dbn9FDbIqR4/maxresdefault.jpg"
+    ]
+  },
+
+  {
+    "id": "6",
+    "title":  "Honda NM4 Vutus",
+    "description": "Этот мотоцикл имеет компактный 670cc, одноцилиндровый четырехтактный двухцилиндровый двигатель SOHC с 8 клапанами с параллельным двухцилиндровым двигателем, управляющий NM4 Vultus, - это полезная, экономичная и чистая силовая установка",
+    "price":  "710 000",
+    "pictures": [
+      "https://i2.wp.com/www.asphaltandrubber.com/wp-content/uploads/2017/04/Honda-NM4-2018.jpg",
+      "https://www.motorrad-bilder.at/slideshows/291/011667/honda_nm4_vultus_test_2014_1.jpg"
+    ]
+  }
+
+]
