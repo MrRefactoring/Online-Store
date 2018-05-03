@@ -19,8 +19,10 @@ namespace Pr
             routes.MapPageRoute("basket", "basket", "~/assets/pages/Basket.aspx");  // Корзина пользователя
 
             routes.MapPageRoute("admin", "admin", "~/assets/pages/admin/Admin.aspx");  // Страница администрации
-            routes.MapPageRoute("orders", "orders", "~/assets/pages/admin/Ordera.aspx");  // Страница обработки заказов
+            routes.MapPageRoute("orders", "orders", "~/assets/pages/admin/Orders.aspx");  // Страница обработки заказов
             routes.MapPageRoute("add", "add", "~/assets/pages/admin/AddItem.aspx");  // Страница добавления товаров
+
+            routes.MapPageRoute("payment", "payment", "~/assets/pages/Payment.aspx");  // Страница с оплатой
 
         }
 

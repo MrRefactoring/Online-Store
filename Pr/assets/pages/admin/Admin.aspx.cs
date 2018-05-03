@@ -27,12 +27,13 @@ namespace Pr.assets.pages.admin
                 Response.Redirect(lolVideos[new Random().Next(lolVideos.Length)]);
             }
 
-
+            delete.ServerClick += onDeleteClick;
 
         }
 
         public void onDeleteClick(object sendler, EventArgs e){
-            
+            DataBaseHandler.deleteItem(field.Value.Split('m')[1]);
+            Response.Redirect("/admin");  // Делаем перезагрузку страницы, чтобы обновить список мотоциклов
         }
 
         public void generateItems(){

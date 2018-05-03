@@ -1,0 +1,22 @@
+﻿body, html {
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    width: 100%
+}
+
+.padding {
+    padding: 20px
+}
+
+.side-padding {
+    padding: 0 20px
+}
+
+.max-width {
+    width: 40%
+
+}body {
+}

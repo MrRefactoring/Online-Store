@@ -38,7 +38,18 @@
     <form runat="server">
          <div class="row">
             <% generateItems(); %>
-        </div>   
+        </div>
+
+        <asp:ScriptManager runat="server" ID="sm">
+         </asp:ScriptManager>
+         <asp:updatepanel runat="server">
+         <ContentTemplate>
+            <a runat="server" id="delete" class="hidden"></a>
+         </ContentTemplate>
+         </asp:updatepanel>
+                
+        <input runat="server" id="field" value="notSelected" type="text" class="hidden">
+            
     </form>
         
 </body>

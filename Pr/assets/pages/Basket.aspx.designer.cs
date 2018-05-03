@@ -14,5 +14,9 @@ namespace Pr.assets.pages {
 	public partial class Basket {
 		
 		protected System.Web.UI.HtmlControls.HtmlForm form1;
+		
+		protected System.Web.UI.HtmlControls.HtmlAnchor delete;
+		
+		protected System.Web.UI.HtmlControls.HtmlInputText field;
 	}
 }

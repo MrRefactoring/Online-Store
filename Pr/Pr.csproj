@@ -70,6 +70,14 @@
     <Content Include="assets\js\admin.js" />
     <Content Include="assets\css\admin.css" />
     <Content Include="assets\pages\admin\AddItem.aspx" />
+    <Content Include="assets\js\add.js" />
+    <Content Include="assets\css\add.css" />
+    <Content Include="assets\js\orders.js" />
+    <Content Include="assets\css\orders.css" />
+    <Content Include="assets\pages\Payment.aspx" />
+    <Content Include="assets\css\payment.css" />
+    <Content Include="assets\js\payment.js" />
+    <Content Include="assets\js\basket.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -124,6 +132,12 @@
     </Compile>
     <Compile Include="assets\pages\admin\AddItem.aspx.designer.cs">
       <DependentUpon>AddItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assets\pages\Payment.aspx.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="assets\pages\Payment.aspx.designer.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

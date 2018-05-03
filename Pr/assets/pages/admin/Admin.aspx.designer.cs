@@ -12,5 +12,11 @@ namespace Pr.assets.pages.admin {
 	
 	
 	public partial class Admin {
+		
+		protected System.Web.UI.ScriptManager sm;
+		
+		protected System.Web.UI.HtmlControls.HtmlAnchor delete;
+		
+		protected System.Web.UI.HtmlControls.HtmlInputText field;
 	}
 }

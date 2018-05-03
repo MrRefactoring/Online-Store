@@ -30,11 +30,8 @@ $(document).ready(() => {
         setInterval(() => {
             instance.next();
         }, getRandomArbitrary(3000, 4000))
-    }
 
-    $('#add').on('click', () => {
-        window.location.replace('/add');
-    });
+    }
 
     $('#main').on('click', () => {
         window.location.replace('/');
@@ -44,7 +41,11 @@ $(document).ready(() => {
         window.location.replace('/signout');
     });
 
-    $('.moto').on('click', (e) => {
+    $('.moto').on('click', () => {
+        window.location.replace('/payment');
+    });
+
+    $('.d').on('click', (e) => {
         $('#field').val(e.currentTarget.attributes[0].value);
         eventFire(document.getElementById('delete'), 'click');
     });
